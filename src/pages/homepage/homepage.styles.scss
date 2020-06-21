@@ -1,0 +1,30 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-size: 60px;
+      padding-bottom: 10px;
+    }
+
+    .subtitle {
+      padding: 30px 0;
+      border-top: 1px solid #800000;
+      font-size: 30px;
+    }
+  }
+
+  .blogs {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}

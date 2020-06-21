@@ -1,0 +1,44 @@
+.navbar {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  align-items: center;
+
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .logo {
+      height: 60px;
+      border-right: 2px solid maroon;
+      margin-right: 30px;
+      padding: 10px 30px 10px 0;
+    }
+
+    .title {
+      font-weight: normal;
+      font-size: 33px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  }
+
+  .options {
+    width: 80%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .option {
+      padding: 10px 15px;
+
+      &:hover {
+        color: maroon;
+      }
+    }
+  }
+}
