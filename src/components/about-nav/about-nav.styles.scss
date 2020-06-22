@@ -1,0 +1,11 @@
+.about-nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-self: flex-end;
+
+  .about-option {
+    color: grey;
+  }
+}

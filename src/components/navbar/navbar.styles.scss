@@ -9,27 +9,27 @@
   align-items: center;
 
   .logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
 
     .logo {
-      height: 60px;
-      border-right: 2px solid maroon;
-      margin-right: 30px;
-      padding: 10px 30px 10px 0;
+      height: 50px;
+      // border-right: 2px solid maroon;
+      // margin-right: 30px;
+      // padding: 10px 30px 10px 0;
     }
 
-    .title {
-      font-weight: normal;
-      font-size: 33px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    // .title {
+    //   font-weight: normal;
+    //   font-size: 27px;
+    //   font-family: Georgia, 'Times New Roman', Times, serif;
+    // }
   }
 
   .options {
     width: 80%;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
 

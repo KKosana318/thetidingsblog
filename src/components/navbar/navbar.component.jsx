@@ -9,7 +9,7 @@ const Navbar = () => (
   <div className='navbar'>
     <Link className='logo-container' to='/'>
       <img className='logo' src={ Logo } alt="The Tidings Blog" />
-      <h1 className='title'> Economics & History Blog</h1>
+      {/* <h1 className='title'> Economics & History Blog</h1> */ }
     </Link>
     <div className='options'>
       <Link className='option' to="/">
