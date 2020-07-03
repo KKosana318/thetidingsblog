@@ -53,13 +53,13 @@ class App extends React.Component {
     return content.substring(start, end);
   }
 
-  componentDidMount() {
-    firestore.collection('blogs').get().then(querySnapshot => {
-      querySnapshot.docs.map(function (doc) {
+  // componentDidMount() {
+  //   firestore.collection('blogs').get().then(querySnapshot => {
+  //     querySnapshot.docs.map(function (doc) {
 
-      })
-    })
-  }
+  //     })
+  //   })
+  // }
 
   render() {
     return (
