@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { firestore } from './firebase/firebase.utils';
+// import { firestore } from './firebase/firebase.utils';
 
 import './App.css';
 
