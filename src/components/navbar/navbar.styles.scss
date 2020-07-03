@@ -8,6 +8,10 @@
   margin-bottom: 25px;
   align-items: center;
 
+  &.no-margin {
+    margin-bottom: 0;
+  }
+
   .logo-container {
     // display: flex;
     // flex-direction: row;

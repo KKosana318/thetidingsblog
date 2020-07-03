@@ -1,0 +1,47 @@
+.motivation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  .quote {
+    color: #800000;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .part-one, .part-two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+
+    .yash {
+      height: 20%;
+      border-radius: 50%;
+    }
+
+    .side-quote {
+      font-size: 50px;
+      color: #800000;
+      width: 30%;
+      line-height: 70px;
+      text-align: center;
+    }
+  
+    .desc {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      line-height: 30px;
+      font-size: 20px;
+
+      .author {
+        color: grey;
+        text-align: end;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

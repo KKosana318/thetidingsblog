@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './custom-title.styles.scss';
+import { CustomTitleContainer } from './custom-titles.styles';
 
-const CustomTitle = ({ children }) => (
-  <h1 class='custom-title'>{ children }</h1>
+const CustomTitle = ({ children, margin, color }) => (
+  <CustomTitleContainer color={ color ? true : false } margin={ margin ? true : false }>{ children }</CustomTitleContainer>
 );
 
 export default CustomTitle;

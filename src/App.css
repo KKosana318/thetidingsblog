@@ -1,5 +1,8 @@
 body {
-  margin: 1% 10%;
+  /* font-family: 'Roboto slab' sans-serif; */
+  margin: 1% auto;
+  width: 80vw;
+  overflow-x: hidden;
 }
 
 a {

@@ -5,27 +5,34 @@ import BlogPreview from '../../components/blog-preview/blog-preview.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
 import CustomTitle from '../../components/custom-title/custom-title.component';
 
-import './homepage.styles.scss';
+import { HomePageContainer, HeaderContainer, BackgroundImage, Content, Title, Subtitle, MissionContainer, MissionImage, PreviewContainer, BlogsContainer } from './homepage.styles';
 
 const HomePage = () => (
-  <div className='homepage'>
-    <div className='header'>
-      <h1 className='title'>Welcome to the Tidings Blog.</h1>
-      <span className='subtitle'>A student-run economics and history blog.</span>
-      <CustomButton>Join us</CustomButton>
-      <Stats />
-    </div>
-    <div className='preview'>
+  <HomePageContainer >
+    <HeaderContainer>
+      <BackgroundImage></BackgroundImage>
+      <Content>
+        <Title>Welcome to the Tidings Blog.</Title>
+        <Subtitle>A student-run economics and history blog.</Subtitle>
+        <CustomButton>Join us</CustomButton>
+        <Stats />
+      </Content>
+    </HeaderContainer>
+    <MissionContainer>
+      <MissionImage src="https://i.ibb.co/P539Dv3/mission.png" alt="" />
+    </MissionContainer>
+
+    <PreviewContainer>
       <CustomTitle>Our Articles</CustomTitle>
-      <div class='blogs'>
+      <BlogsContainer>
         <BlogPreview />
         <BlogPreview />
         <BlogPreview />
         <BlogPreview />
         <BlogPreview />
-      </div>
-    </div>
-  </div>
+      </BlogsContainer>
+    </PreviewContainer>
+  </HomePageContainer >
 )
 
 export default HomePage;
